@@ -1,0 +1,54 @@
+.nav {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.profileContainer {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.1);
+}
+
+.profileHeader {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.profileImage {
+  border-radius: 50%;
+  width: 100px;
+  border: 3px solid #1976d2;
+}
+
+.accountSection, .bookingSection {
+  margin-bottom: 2rem;
+}
+
+.accountInfo p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0;
+}
+
+.changeBtn, .addEmailBtn {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 9px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.bookingCard {
+  background: #f5f8fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,42 @@
+.centerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f8f9fb;
+}
+.loginCard {
+  padding: 2rem 2.5rem;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(80,100,140,0.08);
+  min-width: 400px;
+  text-align: center;
+}
+.iconCircle {
+  width: 50px;
+  height: 50px;
+  background: #1976d2;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+}
+.primaryBtn {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: none;
+  background: #1976d2;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.forgotRow {
+  text-align: right;
+  margin-bottom: 5px;
+}

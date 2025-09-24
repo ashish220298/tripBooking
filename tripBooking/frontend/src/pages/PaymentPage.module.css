@@ -1,0 +1,66 @@
+.payment {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.paymentGrid {
+  display: flex;
+  gap: 3rem;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.1);
+}
+
+.paymentInfo {
+  flex: 1;
+}
+
+.paymentInfo input {
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.bookingSummary {
+  flex: 1;
+  border-left: 1px solid #e0e0e0;
+  padding-left: 1.5rem;
+}
+
+.fareRow {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.price {
+  color: #1976d2;
+}
+
+.payBtn {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.expiryCvv > input {
+  width: 45%;
+  margin-right: 10%;
+}
