@@ -1,0 +1,70 @@
+.booking {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bookingDetails {
+  display: flex;
+  gap: 2rem;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 3px 16px rgba(0,0,0,0.1);
+}
+
+.tripImg {
+  width: 250px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+.seatSelection {
+  width: 280px;
+}
+
+.seatGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.seat {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.selectedSeat {
+  background-color: #1976d2;
+  color: white;
+  border-color: #1976d2;
+}
+
+.confirmBtn {
+  background-color: #1976d2;
+  border: none;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+}
